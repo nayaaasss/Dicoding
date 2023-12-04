@@ -1,0 +1,149 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    z-index: 100%;
+}
+
+.navbar .logo img {
+    width: 87px; 
+}
+
+.navbar .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+    margin-top: 24px;
+}
+
+.navbar .nav-list li {
+    list-style-type: none;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: black;
+    padding: .5rem 1.5rem;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar .nav-list li:hover a {
+  background-color: #425c77;
+  color: white;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 1rem 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content .content-deskripsi {
+    flex: 1 1;
+}
+
+.content .content-deskripsi p {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+.content .content-deskripsi button {
+    padding: .7rem 1.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #2D3E50;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+.content .content-deskripsi button:hover {
+    border: 3px solid #2D3E50;
+    color: #2D3E50;
+    background-color: transparent;
+}
+
+.content img {
+    flex: 1;
+    display: flex;
+}
+
+.content .content img {
+    margin: auto;
+    min-width: 250px;
+    width: 300px;
+}
+
+aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+}
+
+.social-media {
+    height: 100%;
+  display: flex;
+}
+
+.social-media ul {
+    padding: 1.5rem 1rem;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #2D3E50;
+   
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-media li {
+    list-style-type: none;
+}
+
+.social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .1s ease-in-out;
+}
+
+.social-media li a:hover {
+    color: #89b0d9;
+  }
+
+.baru h1 {
+    display: flex;
+    justify-content: center;
+}
